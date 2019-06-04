@@ -7,10 +7,10 @@
     * sp_sram_16k36.v
     * mst_data_chk.v
     * mst_data_gen.v
-    * mst_pre_fet.v \\
+    * mst_pre_fet.v \
 1. Module mst_fifo_top.v \
 This is the top module of the FIFO master; it contains all the sub modules as well as memory used in the
-design. Its interface is identical to the Pin Out (Section 2.2).
+design. 
 2. Module mst_fifo_io.v \
 This module connects signals between ports and internal modules. It also controls the direction of
 bidirectional IOs DATA and BE.
