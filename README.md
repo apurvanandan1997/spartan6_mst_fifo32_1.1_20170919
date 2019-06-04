@@ -1,12 +1,12 @@
-Module structure
-  - mst_fifo_top.v
-    o mst_fifo_io.v
-    o mst_fifo_fsm.v
-    o mst_fifo_ctl.v
-    o sp_sram_16k36.v
-    o mst_data_chk.v
-    o mst_data_gen.v
-    o mst_pre_fet.v
+# Module structure
+  * mst_fifo_top.v
+    * mst_fifo_io.v
+    * mst_fifo_fsm.v
+    * mst_fifo_ctl.v
+    * sp_sram_16k36.v
+    * mst_data_chk.v
+    * mst_data_gen.v
+    * mst_pre_fet.v
 2.4.2 Module mst_fifo_top.v
 This is the top module of the FIFO master; it contains all the sub modules as well as memory used in the
 design. Its interface is identical to the Pin Out (Section 2.2).
