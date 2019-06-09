@@ -1,4 +1,10 @@
 # Example FT601Q controller for Spartan 6 FPGA #
+
+
+**FIFO Master Block Diagram**:
+<img src="https://raw.githubusercontent.com/apurvanandan1997/spartan6_mst_fifo32_1.1_20170919/master/FIFO%20Master%20Block%20Diagram.png?sanitize=true&raw=true" />
+
+
   ##### Module structure ####
   * mst_fifo_top.v
     * mst_fifo_io.v
@@ -34,3 +40,6 @@ generate 1 or 4 data streams depending on whether FT245 or FT600 mode is configu
 8. Module mst_pre_fet.v \
 This module temporarily stores pre-fetch data that will be sent to IOs in master write mode. It optimizes
 the timing for FPGAs.
+
+**FIFO Master FSM**:
+<img src="https://raw.githubusercontent.com/apurvanandan1997/spartan6_mst_fifo32_1.1_20170919/master/FIFO%20Master%20FSM.png?sanitize=true&raw=true" />
